@@ -1,0 +1,67 @@
+
+@import 'settings';
+@import '../bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/variables';
+@import '../bootstrap-sass-3.3.7/assets/stylesheets/bootstrap';
+$font-family: 'Neuton', serif;
+$color-white: white;
+$color-blue: #106DB3;
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    height: 100%;
+}
+
+body {
+    border: 1px solid black;
+    font-family: $font-family;
+}
+
+.header-bar {
+    text-align: center;
+    // background-color: rgba(1, 95, 255, 0.4);
+    background: url('https://placekitten.com/g/2000/500');
+    background-size: cover;
+    height: 400px;
+}
+
+#logo {
+    width: 30px;
+}
+
+.header-bar {
+
+}
+#header-text {
+    padding-top: 100px;
+    padding-bottom: -15px;
+    font-size: 8vw;
+    // font-size: 130px;
+    color: $color-white;
+}
+#header-subtext {
+    padding-top: -100px;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border: none;
+}
+
+.big-ole-font {
+    font-size: 5vw;
+}
+
+.padding-up-top {
+    padding-top: 60px;
+}
+h2, h5 {
+    color: $color-blue;
+}
+
+h5 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}

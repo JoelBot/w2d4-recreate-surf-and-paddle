@@ -1,0 +1,7 @@
+$color1: red;
+$color2: lime;
+$gradient: linear-gradient($color1, $color2);
+$padding: 100px;
+$paddingHover: 20px;
+$brand-success: purple;
+$darkerColor1: darken($color1, 10%);
