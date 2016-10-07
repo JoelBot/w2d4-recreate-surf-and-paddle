@@ -5821,7 +5821,6 @@ img {
   height: 100%; }
 
 body {
-  border: 1px solid black;
   font-family: "Neuton", serif; }
 
 .header-bar {
@@ -5852,9 +5851,12 @@ body {
 .padding-up-top {
   padding-top: 60px; }
 
-h2, h5 {
+h2, h3, h4, h5 {
   color: #106DB3; }
 
 h5 {
   padding-bottom: 0;
   margin-bottom: 0; }
+
+.border-top {
+  border-top: 1px solid grey; }
