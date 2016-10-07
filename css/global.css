@@ -5860,3 +5860,16 @@ h5 {
 
 .border-top {
   border-top: 1px solid grey; }
+
+.bottom-image {
+  display: inline-block;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  margin-right: 0;
+  margin-left: 0; }
+  .bottom-image img {
+    width: 100%; }
+
+.no-pad {
+  padding: 0; }

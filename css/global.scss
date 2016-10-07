@@ -69,3 +69,20 @@ h5 {
 .border-top {
     border-top: 1px solid $border-color;
 }
+
+.bottom-image {
+    display: inline-block;
+    padding: 0;
+    // border: 1px solid black;
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+    margin-left: 0;
+    img {
+        width: 100%;
+    }
+}
+
+.no-pad {
+    padding: 0;
+}
