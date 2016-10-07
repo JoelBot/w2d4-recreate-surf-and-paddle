@@ -6,6 +6,8 @@ $font-family: 'Neuton', serif;
 $color-white: white;
 $color-blue: #106DB3;
 $border-color: grey;
+$iron-yard-color: #202F37;
+$iron-yard-text-color: #969DA1;
 
 * {
     box-sizing: border-box;
@@ -13,11 +15,14 @@ $border-color: grey;
 
 img {
     height: 100%;
+    margin-top: 15px;
+    // margin-bottom: 12px;
 }
 
 body {
     font-family: $font-family;
 }
+
 
 .header-bar {
     text-align: center;
@@ -25,11 +30,28 @@ body {
     background: url('https://placekitten.com/g/2000/500');
     background-size: cover;
     height: 400px;
+    h3 {
+        // padding-top: 18px;
+        color: $iron-yard-color;
+    }
+    h4 {
+        color: $iron-yard-color;
+        padding-top: 18px;
+    }
+    .navbar-brand {
+        #logo {
+            width: 50px;
+            height: auto;
+            // margin-top: 2px;
+        }
+        img {
+            margin-top: -12px;
+        }
+    }
+
 }
 
-#logo {
-    width: 30px;
-}
+
 
 .header-bar {
 
@@ -59,6 +81,7 @@ body {
 }
 h2, h3, h4, h5 {
     color: $color-blue;
+    margin-top: 0;
 }
 
 h5 {
@@ -85,4 +108,72 @@ h5 {
 
 .no-pad {
     padding: 0;
+    margin: 0;
+}
+
+.footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: $iron-yard-color;
+    color: $iron-yard-text-color;
+    // margin: 0 auto;
+    a {
+        color: $iron-yard-text-color;
+    }
+    img {
+        width: 75px;
+        height: auto;
+    }
+}
+
+.little-image {
+    width: 25px;
+    height: auto;
+}
+
+.action-buttons {
+    // border: 1px solid black;
+    max-height: 40px;
+    // margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 45px;
+    background-color: lightgrey;
+
+    .button-icon {
+        width: 40px;
+        height: 40px;
+        background: $iron-yard-text-color;
+        color: $color-white;
+        display: inline-block;
+        // border: 1px solid black;
+    }
+    .button-text {
+        max-width: 150px;
+        width: auto;
+        padding-left: 5px;
+        display: inline-block;
+    }
+}
+
+.overlay {
+  position: relative;
+  background-color: rgba(0,0,255,0.5);
+}
+
+.overlay:before{
+  position: absolute;
+  content:" ";
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  display: none;
+  z-index:1;
+}
+
+.overlay:hover:before{
+  display: block;
+}
+.blue:before {
+  background-color: rgba(0,0,255,0);
 }

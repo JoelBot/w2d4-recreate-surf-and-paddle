@@ -5818,7 +5818,8 @@ button.close {
   box-sizing: border-box; }
 
 img {
-  height: 100%; }
+  height: 100%;
+  margin-top: 15px; }
 
 body {
   font-family: "Neuton", serif; }
@@ -5828,9 +5829,16 @@ body {
   background: url("https://placekitten.com/g/2000/500");
   background-size: cover;
   height: 400px; }
-
-#logo {
-  width: 30px; }
+  .header-bar h3 {
+    color: #202F37; }
+  .header-bar h4 {
+    color: #202F37;
+    padding-top: 18px; }
+  .header-bar .navbar-brand #logo {
+    width: 50px;
+    height: auto; }
+  .header-bar .navbar-brand img {
+    margin-top: -12px; }
 
 #header-text {
   padding-top: 100px;
@@ -5852,7 +5860,8 @@ body {
   padding-top: 60px; }
 
 h2, h3, h4, h5 {
-  color: #106DB3; }
+  color: #106DB3;
+  margin-top: 0; }
 
 h5 {
   padding-bottom: 0;
@@ -5872,4 +5881,57 @@ h5 {
     width: 100%; }
 
 .no-pad {
-  padding: 0; }
+  padding: 0;
+  margin: 0; }
+
+.footer {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: #202F37;
+  color: #969DA1; }
+  .footer a {
+    color: #969DA1; }
+  .footer img {
+    width: 75px;
+    height: auto; }
+
+.little-image {
+  width: 25px;
+  height: auto; }
+
+.action-buttons {
+  max-height: 40px;
+  margin-right: 15px;
+  margin-bottom: 45px;
+  background-color: lightgrey; }
+  .action-buttons .button-icon {
+    width: 40px;
+    height: 40px;
+    background: #969DA1;
+    color: white;
+    display: inline-block; }
+  .action-buttons .button-text {
+    max-width: 150px;
+    width: auto;
+    padding-left: 5px;
+    display: inline-block; }
+
+.overlay {
+  position: relative;
+  background-color: rgba(0, 0, 255, 0.5); }
+
+.overlay:before {
+  position: absolute;
+  content: " ";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  z-index: 1; }
+
+.overlay:hover:before {
+  display: block; }
+
+.blue:before {
+  background-color: rgba(0, 0, 255, 0); }
