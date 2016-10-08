@@ -27,51 +27,58 @@ body {
 .header-bar {
     text-align: center;
     // background-color: rgba(1, 95, 255, 0.4);
-    background: url('https://placekitten.com/g/2000/500');
+    background: linear-gradient(rgba(1, 95, 255, 0.4),rgba(1, 95, 255, 0.4)),url('https://unsplash.it/g/2000/500?random');
     background-size: cover;
     height: 400px;
-    h3 {
-        // padding-top: 18px;
-        color: $iron-yard-color;
-    }
-    h4 {
-        color: $iron-yard-color;
-        padding-top: 18px;
-    }
-    .navbar-brand {
-        #logo {
-            width: 50px;
-            height: auto;
-            // margin-top: 2px;
+
+        h3 {
+            // padding-top: 18px;
+            color: $iron-yard-color;
         }
-        img {
-            margin-top: -12px;
+        h4 {
+            color: $iron-yard-color;
+            padding-top: 18px;
         }
+        .navbar-brand {
+            #logo {
+                width: 50px;
+                height: auto;
+                // margin-top: 2px;
+            }
+            img {
+                margin-top: -12px;
+            }
+        }
+
+}
+
+    #header-text {
+        padding-top: 100px;
+        padding-bottom: -15px;
+        font-size: 8vw;
+        // font-size: 130px;
+        color: $color-white;
+    }
+    #header-subtext {
+        padding-top: -100px;
     }
 
-}
+    .navbar-default {
+        background-color: transparent;
+        border: none;
+    }
 
 
-
-.header-bar {
-
-}
-#header-text {
-    padding-top: 100px;
-    padding-bottom: -15px;
-    font-size: 8vw;
-    // font-size: 130px;
-    color: $color-white;
-}
-#header-subtext {
-    padding-top: -100px;
-}
-
-.navbar-default {
-    background-color: transparent;
-    border: none;
-}
-
+// .overlay {
+//     content: '';
+//     position: absolute;
+//     top: 0;
+//     right: 0;
+//     bottom: 0;
+//     left: 0;
+//     background-image: linear-gradient(bottom,$color-blue,$color-blue);
+//     opacity: .6;
+// }
 .big-ole-font {
     font-size: 5vw;
 }
@@ -101,9 +108,16 @@ h5 {
     height: auto;
     margin-right: 0;
     margin-left: 0;
+    margin-top: 0;
+    background: linear-gradient($color-blue,$color-blue);
     img {
         width: 100%;
+        opacity: .4;
+        margin: 0 auto;
     }
+        img:hover {
+            opacity: 1;
+        }
 }
 
 .no-pad {
@@ -155,25 +169,26 @@ h5 {
     }
 }
 
-.overlay {
-  position: relative;
-  background-color: rgba(0,0,255,0.5);
+#small-round {
+    background-radius: 90px;
+    width: 25px;
 }
+#large-round {
+    background-radius: 55px;
+    width: 100px;
+}
+.blue {
 
-.overlay:before{
-  position: absolute;
-  content:" ";
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-  display: none;
-  z-index:1;
-}
-
-.overlay:hover:before{
-  display: block;
-}
-.blue:before {
-  background-color: rgba(0,0,255,0);
+    background: linear-gradient($color-blue,$color-blue);
+    border-radius: 25px;
+    // width: 25px;
+    height: auto;
+    img {
+        width: 100%;
+        opacity: .4;
+        margin: 0 auto;
+    }
+        img:hover {
+            opacity: 1;
+        }
 }
