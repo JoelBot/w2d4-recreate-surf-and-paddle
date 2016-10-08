@@ -5826,7 +5826,7 @@ body {
 
 .header-bar {
   text-align: center;
-  background: linear-gradient(rgba(1, 95, 255, 0.4), rgba(1, 95, 255, 0.4)), url("https://unsplash.it/g/2000/500?random");
+  background: linear-gradient(rgba(1, 95, 255, 0.4), rgba(1, 95, 255, 0.4)), url("https://unsplash.it/2000/500?image=385");
   background-size: cover;
   height: 400px; }
   .header-bar h3 {
