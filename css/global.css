@@ -5884,7 +5884,14 @@ h5 {
     opacity: .4;
     margin: 0 auto; }
   .bottom-image img:hover {
-    opacity: 1; }
+    opacity: 1;
+    color: white; }
+  .bottom-image h1 {
+    position: absolute;
+    top: 290px;
+    left: 5px; }
+  .bottom-image:hover {
+    color: white; }
 
 .no-pad {
   padding: 0;

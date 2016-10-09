@@ -31,42 +31,42 @@ body {
     background-size: cover;
     height: 400px;
 
-        h3 {
-            // padding-top: 18px;
-            color: $iron-yard-color;
+    h3 {
+        // padding-top: 18px;
+        color: $iron-yard-color;
+    }
+    h4 {
+        color: $iron-yard-color;
+        padding-top: 18px;
+    }
+    .navbar-brand {
+        #logo {
+            width: 50px;
+            height: auto;
+            // margin-top: 2px;
         }
-        h4 {
-            color: $iron-yard-color;
-            padding-top: 18px;
+        img {
+            margin-top: -12px;
         }
-        .navbar-brand {
-            #logo {
-                width: 50px;
-                height: auto;
-                // margin-top: 2px;
-            }
-            img {
-                margin-top: -12px;
-            }
-        }
+    }
 
 }
 
-    #header-text {
-        padding-top: 100px;
-        padding-bottom: -15px;
-        font-size: 8vw;
-        // font-size: 130px;
-        color: $color-white;
-    }
-    #header-subtext {
-        padding-top: -100px;
-    }
+#header-text {
+    padding-top: 100px;
+    padding-bottom: -15px;
+    font-size: 8vw;
+    // font-size: 130px;
+    color: $color-white;
+}
+#header-subtext {
+    padding-top: -100px;
+}
 
-    .navbar-default {
-        background-color: transparent;
-        border: none;
-    }
+.navbar-default {
+    background-color: transparent;
+    border: none;
+}
 
 
 // .overlay {
@@ -115,9 +115,19 @@ h5 {
         opacity: .4;
         margin: 0 auto;
     }
-        img:hover {
-            opacity: 1;
-        }
+    img:hover {
+        opacity: 1;
+        color: $color-white;
+    }
+    h1 {
+        position: absolute;
+        top: 290px;
+        left: 5px;
+        // text-align-last: center;
+    }
+    &:hover {
+        color: $color-white;
+    }
 }
 
 .no-pad {
@@ -174,7 +184,7 @@ h5 {
     width: 25px;
 }
 #large-round {
-border-radius: 55px;
+    border-radius: 55px;
     width: 100px;
 }
 .blue {
@@ -188,7 +198,8 @@ border-radius: 55px;
         opacity: .4;
         margin: 0 auto;
     }
-        img:hover {
-            opacity: 1;
-        }
+    img:hover {
+        opacity: 1;
+    }
+
 }
