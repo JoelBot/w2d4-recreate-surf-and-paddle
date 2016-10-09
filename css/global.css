@@ -5852,11 +5852,16 @@ body {
   background-color: transparent;
   border: none; }
 
+.main-left {
+  padding-left: 15px;
+  padding-right: 50px; }
+
 .big-ole-font {
   font-size: 5vw; }
 
-.padding-up-top {
-  padding-top: 60px; }
+.padding-up-top-and-left {
+  padding-top: 60px;
+  width: 90vw; }
 
 h2, h3, h4, h5 {
   color: #106DB3;
@@ -5887,7 +5892,7 @@ h5 {
     color: white; }
   .bottom-image h1 {
     position: absolute;
-    bottom: 20px;
+    bottom: 0;
     left: 5px; }
   .bottom-image:hover {
     color: white; }
@@ -5935,6 +5940,9 @@ h5 {
 #large-round {
   border-radius: 55px;
   width: 100px; }
+
+#extra-bottom-margin {
+  margin-bottom: 4vw; }
 
 .blue {
   background: linear-gradient(#106DB3, #106DB3);

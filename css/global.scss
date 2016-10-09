@@ -70,24 +70,21 @@ body {
     border: none;
 }
 
-
-// .overlay {
-//     content: '';
-//     position: absolute;
-//     top: 0;
-//     right: 0;
-//     bottom: 0;
-//     left: 0;
-//     background-image: linear-gradient(bottom,$color-blue,$color-blue);
-//     opacity: .6;
-// }
+.main-left {
+    padding-left: 15px;
+    padding-right: 50px;
+    // text-align: justify;
+}
 .big-ole-font {
     font-size: 5vw;
 }
 
-.padding-up-top {
+.padding-up-top-and-left{
     padding-top: 60px;
+    width: 90vw;
+    // margin-left: 20px;
 }
+
 h2, h3, h4, h5 {
     color: $color-blue;
     margin-top: 0;
@@ -123,7 +120,7 @@ h5 {
     }
     h1 {
         position: absolute;
-        bottom: 20px;
+        bottom: 0;
         left: 5px;
         // text-align-last: center;
     }
@@ -188,6 +185,10 @@ h5 {
 #large-round {
     border-radius: 55px;
     width: 100px;
+}
+
+#extra-bottom-margin {
+    margin-bottom: 4vw;
 }
 .blue {
 
