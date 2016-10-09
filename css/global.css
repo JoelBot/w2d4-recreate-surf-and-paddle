@@ -5828,7 +5828,7 @@ body {
   text-align: center;
   background: linear-gradient(rgba(1, 95, 255, 0.4), rgba(1, 95, 255, 0.4)), url("https://unsplash.it/2000/500?image=385");
   background-size: cover;
-  height: 400px; }
+  height: 42vw; }
   .header-bar h3 {
     color: #202F37; }
   .header-bar h4 {
@@ -5839,15 +5839,14 @@ body {
     height: auto; }
   .header-bar .navbar-brand img {
     margin-top: -12px; }
+  .header-bar .flip {
+    transform: scale(-1, 1); }
 
 #header-text {
-  padding-top: 100px;
-  padding-bottom: -15px;
-  font-size: 8vw;
+  padding-top: 6vw;
+  margin-bottom: -3vw;
+  font-size: 9vw;
   color: white; }
-
-#header-subtext {
-  padding-top: -100px; }
 
 .navbar-default {
   background-color: transparent;
@@ -5888,7 +5887,7 @@ h5 {
     color: white; }
   .bottom-image h1 {
     position: absolute;
-    top: 290px;
+    bottom: 20px;
     left: 5px; }
   .bottom-image:hover {
     color: white; }
